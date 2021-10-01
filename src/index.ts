@@ -1,3 +1,4 @@
-import { Num } from './Num'
+import themeChange from './useThemeChange'
 
-export { Num }
+export { default as initThemeChange } from './init'
+export default themeChange
